@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Pembelajaran Khalifah Al-Mu‘tasim Billah</title>
+
+  <!-- Font Imut -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Quicksand", sans-serif;
+      background: linear-gradient(135deg, #fff1f8, #e9f9ff);
+      color: #555;
+      line-height: 1.9;
+      overflow-x: hidden;
+    }
+
+    /* 🌸 STIKER BUNGA BACKGROUND */
+    .flowers span {
+      position: fixed;
+      font-size: 26px;
+      opacity: 0.6;
+      animation: floatFlower 14s linear infinite;
+      z-index: 0;
+    }
+
+    .flowers span:nth-child(1) { left: 5%; animation-duration: 16s; }
+    .flowers span:nth-child(2) { left: 15%; animation-duration: 12s; }
+    .flowers span:nth-child(3) { left: 30%; animation-duration: 18s; }
+    .flowers span:nth-child(4) { left: 45%; animation-duration: 14s; }
+    .flowers span:nth-child(5) { left: 60%; animation-duration: 20s; }
+    .flowers span:nth-child(6) { left: 75%; animation-duration: 13s; }
+    .flowers span:nth-child(7) { left: 90%; animation-duration: 17s; }
+
+    @keyframes floatFlower {
+      0% { top: 110%; transform: rotate(0deg); }
+      100% { top: -10%; transform: rotate(360deg); }
+    }
+
+    header {
+      background: linear-gradient(135deg, #ffd6e8, #d6f0ff);
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom-left-radius: 35px;
+      border-bottom-right-radius: 35px;
+      animation: slideDown 1.2s ease;
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      font-family: "Baloo 2", cursive;
+      font-size: 34px;
+      color: #6b4eff;
+      margin: 0;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 35px auto;
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    section {
+      background-color: #ffffff;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 24px;
+      box-shadow: 0 12px 22px rgba(0,0,0,0.08);
+      animation: fadePop 1.2s ease;
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-6px);
+    }
+
+    h2 {
+      font-family: "Baloo 2", cursive;
+      color: #ff6fae;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .cute-box {
+      background: linear-gradient(135deg, #fdf0ff, #eef7ff);
+      padding: 20px;
+      border-radius: 18px;
+      border: 3px dashed #ffc1e3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(135deg, #d6f0ff, #ffd6e8);
+      border-top-left-radius: 35px;
+      border-top-right-radius: 35px;
+      font-size: 14px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* IKON BERGERAK */
+    .icon-bounce { animation: bounce 1.8s infinite; }
+    .icon-wiggle { animation: wiggle 2s infinite; }
+    .icon-float  { animation: float 3s ease-in-out infinite; }
+
+    @keyframes bounce { 50% { transform: translateY(-6px); } }
+    @keyframes wiggle { 25% { transform: rotate(4deg); } 75% { transform: rotate(-4deg); } }
+    @keyframes float { 50% { transform: translateY(-10px); } }
+
+    @keyframes fadePop {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- 🌸 BUNGA BERGERAK -->
+<div class="flowers">
+  <span>🌸</span>
+  <span>🌼</span>
+  <span>🌷</span>
+  <span>🌺</span>
+  <span>🌻</span>
+  <span>💮</span>
+  <span>🌹</span>
+</div>
+
+<header>
+  <h1>📖 Khalifah Al-Mu‘tasim Billah</h1>
+  <p>Pemimpin Dinasti Abbasiyah yang Berperan Penting dalam Penguatan Militer Islam</p>
+</header>
+
+<main>
+
+  <section>
+    <h2><span class="icon-bounce">🪪</span> Identitas Khalifah</h2>
+    <ul>
+      <li>Nama lengkap Khalifah ini adalah Abu Ishaq Muhammad bin Harun ar-Rasyid.</li>
+      <li>Ia dikenal dalam sejarah Islam dengan gelar Al-Mu‘tasim Billah.</li>
+      <li>Al-Mu‘tasim berasal dari kota Baghdad.</li>
+      <li>Ia merupakan bagian dari Dinasti Abbasiyah.</li>
+      <li>Masa pemerintahannya berlangsung dari tahun 833 M hingga 842 M.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="icon-float">👑</span> Biografi Khalifah Al-Mu‘tasim Billah</h2>
+    <p>
+      Al-Mu‘tasim Billah adalah putra dari Khalifah Harun ar-Rasyid dan adik dari Khalifah Al-Ma’mun.
+      Sejak masa mudanya, ia telah menunjukkan kemampuan yang kuat dalam bidang kemiliteran.
+    </p>
+    <p>
+      Ketika menjabat sebagai khalifah, Al-Mu‘tasim lebih banyak memusatkan perhatiannya pada
+      penguatan pertahanan negara dan stabilitas pemerintahan Islam.
+    </p>
+    <p>
+      Salah satu kebijakan terpenting yang ia lakukan adalah memindahkan ibu kota dari Baghdad ke
+      Samarra agar pemerintahan dapat berjalan lebih aman, tertib, dan terhindar dari konflik sosial.
+    </p>
+    <p>
+      Al-Mu‘tasim Billah wafat pada tahun 842 M dan kepemimpinan Dinasti Abbasiyah kemudian
+      dilanjutkan oleh putranya, Al-Watsiq.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="icon-wiggle">⚠️</span> Masalah yang Dihadapi (Analisis Fishbone)</h2>
+    <div class="cute-box">
+      <p>
+        Pada masa pemerintahan Al-Mu‘tasim Billah, terdapat beberapa permasalahan utama yang
+        berkaitan dengan kelemahan militer dan ketidakstabilan politik.
+      </p>
+      <ul>
+        <li>Dominasi etnis Arab dan Persia dalam tubuh militer.</li>
+        <li>Sering terjadinya pemberontakan dan konflik internal.</li>
+        <li>Perebutan kekuasaan di lingkungan pemerintahan pusat.</li>
+        <li>Terjadinya gesekan sosial yang cukup tinggi di kota Baghdad.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="icon-bounce">💡</span> Solusi dan Ide Utama</h2>
+    <div class="cute-box">
+      <ul>
+        <li>Membentuk pasukan khusus yang berasal dari unsur bangsa Turki.</li>
+        <li>Meningkatkan profesionalisme, kedisiplinan, dan keteraturan dalam sistem militer.</li>
+        <li>Menanamkan loyalitas tentara yang sepenuhnya hanya kepada khalifah.</li>
+        <li>Memindahkan ibu kota ke Samarra guna mengurangi konflik dan tekanan sosial.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="icon-float">🕌</span> Pemikiran dan Kebijakan Islam</h2>
+    <ul>
+      <li>Memperkuat sistem militer Islam agar negara tetap stabil dan aman.</li>
+      <li>Menjaga kekuasaan Dinasti Abbasiyah agar tidak mudah runtuh.</li>
+      <li>Melindungi wilayah Islam dari ancaman pemberontakan dan serangan dari luar.</li>
+      <li>Melanjutkan kebijakan pemerintahan sebelumnya dalam bidang ilmu dan administrasi.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="icon-float">✨</span> Kesimpulan</h2>
+    <p>
+      Khalifah Al-Mu‘tasim Billah bukanlah tokoh pembaruan besar dalam bidang ilmu pengetahuan
+      seperti Khalifah Al-Ma’mun. Namun, ia dikenal sebagai pemimpin yang berhasil memperbarui
+      kekuatan militer dan menjaga stabilitas pemerintahan Islam pada masanya.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>🌸 Web Pembelajaran Sejarah Islam | Almira🌼Elsya 🌸</p>
+</footer>
+
+</body>
+</html>
